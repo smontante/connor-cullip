@@ -633,9 +633,9 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 html .btn-primary {
-	background-color: transparent;
-	border-color: #86D673;
-	color: #86D673;
+	background-color: #E84D10;;
+	border-color: #ffffff;
+	color: #ffffff;
 }
 
 html .btn-primary:hover,
@@ -1059,16 +1059,16 @@ html .show > .btn-light-scale-2.dropdown-toggle {
 }
 
 html .btn-outline.btn-primary {
-	color: #86D673;
+	color: #E84D10;
 	background-color: transparent;
-	border-color: #86D673;
+	border-color: #E84D10;
 }
 
 html .btn-outline.btn-primary:hover,
 html .btn-outline.btn-primary.hover {
-	color: #71CCFC;
-	background-color: #0B4393;
-	border-color: #71CCFC;
+	color: #ffffff;
+	background-color: #000000;
+	border-color: #000000;
 }
 
 html .btn-outline.btn-primary:focus,
@@ -3259,11 +3259,11 @@ html .accordion.accordion-light .card-header a {
 
 html .divider.divider-primary [class*="fa-"],
 html .divider.divider-primary .icons {
-	color: #AB8B65;
+	color: #E84D10;
 }
 
 html .divider.divider-primary.divider-small hr {
-	background: #094393;
+	background: #E84D10;
 }
 
 html .divider.divider-secondary [class*="fa-"],
@@ -3272,7 +3272,7 @@ html .divider.divider-secondary .icons {
 }
 
 html .divider.divider-secondary.divider-small hr {
-	background: #e36159;
+	background: #E84D10;
 }
 
 html .divider.divider-tertiary [class*="fa-"],
@@ -3511,7 +3511,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav-main nav > ul:not(:hover) > li > a.active {
-		background-color: #0088cc;
+		background-color: black;
 		color: #FFF;
 	}
 

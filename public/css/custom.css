@@ -2,3 +2,9 @@
 .bg-color-black {
     background: red;
 }
+
+.form-window {
+    background-attachment: fixed;
+    background-position: center; 
+    border-radius: 16px;
+}   

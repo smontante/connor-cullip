@@ -9,9 +9,9 @@ const publicDirectioryPath = path.join(__dirname, '../public');
 app.use(express.static(publicDirectioryPath))
 app.use(express.json());
 
-app.post('/contact', (req, res)=> {
+app.post('contact', (req, res)=> {
     const contact = new Contact(req.body);
-    console.log('lead:', req.body)
+    console.log('contact info:', req.body)
     ticket.save().then(()=> {
         res.status(201).send(contact)
     }).catch((e)=> {

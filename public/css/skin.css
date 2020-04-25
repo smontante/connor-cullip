@@ -621,15 +621,15 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 .btn-link {
-	color: #AB8B65;
+	color: #E84D10;
 }
 
 .btn-link:hover {
-	color: #b49776;
+	color: #E84D10;
 }
 
 .btn-link:active {
-	color: #9f7e57;
+	color: #E84D10;
 }
 
 html .btn-primary {
@@ -640,9 +640,9 @@ html .btn-primary {
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	background-color: #0B4393;
-	border-color: #71CCFC;
-	color: #71CCFC;
+	background-color: #A93438;
+	border-color: #fff;
+	color: #ffffff;
 }
 
 html .btn-primary:focus,
